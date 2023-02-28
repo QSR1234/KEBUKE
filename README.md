@@ -1,2 +1,2 @@
 # KEBUKE
-Learnt all the basics form David's HTML &amp; CSS tutorials, and apply on this small project. 
+I learnt the some basics of HTML, CSS, JavaScript from "freeCodeCamp" in this winter vacation, and apply on this small project. 
