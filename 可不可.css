@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+html {
+    font-size: 22px;
+}
+body {
+    background:hsl(0, 68%, 28%);
+    color: whitesmoke;
+}
+
+h1{
+  text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0;
+  }
+
+p {
+  text-indent: 1.5rem;
+}
+
+.h2-intro {
+  text-align:left;
+}  
+
+aside {
+  width: 20vw;
+  padding-left: 2.5rem;
+  background: #ae6d04;
+}
+
+
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: center;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+ul a{
+  text-decoration: none;
+}
+
+ul a:hover,
+ul a:focus{
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+a {
+  color:cornsilk;
+}
+
+a:visited {
+  color:burlywood;
+}
+
+a:hover {
+color:coral;
+}
+
+
+table, tr, th, td, caption{
+  border: 1px solid #fff;
+  border-collapse: separate;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1.5rem;
+  padding: 0.3em;
+  margin: auto;
+  background: rgb(171, 9, 76);
+}
+
+.underline{
+  width:5rem;
+  height: 0.1rem;
+  margin: 0.5rem auto;
+  background-color: gold;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+.menu{
+    padding:5rem ;
+    margin-top: 0;
+}
+
+
+.section-center{
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-items: center;
+    flex-flow: row wrap;
+  }
+
+.article-center {
+    width: 90vw;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  figcaption {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+  }
+  .menu-item {
+    display: flex; 
+    gap: 1rem 2rem;
+    max-width: 25rem; 
+     /* grid-template-columns: 600px 600px; */
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+
+ .bottomLinks {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center ;
+  font-size: 1.5rem;
+  flex-flow: row wrap;
+  gap: 1.5rem;
+}
+
+ .photo {
+  border: 3px solid gold;
+  border-radius: 2rem;
+ }
+
+ input, button{
+  font: inherit;
+}
+
+.btn-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 1rem ;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.flt-btn {
+  background: transparent;
+  color:gold;
+  border: 2px solid gold;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.flt-btn:hover {
+  color: #fff;
+  background:rgb(198, 185, 111)
+} 
+
+.flt-btn:active {
+  color:red;
+} 
